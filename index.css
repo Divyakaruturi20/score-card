@@ -1,0 +1,60 @@
+@font-face {
+  font-family: clock; /* set name */
+  src: url(fonts/digital-7.ttf); /* url of the font */
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background: #1B244A;   
+    height: 270px;
+    width: 450px;
+    margin: 100px auto;
+    align-items: center;
+    
+}
+.sub-container{
+    text-align: center;
+    text-shadow: 0 0 2px black;
+}
+
+.score-btn{
+    background: transparent;
+    border: 1px solid #9AABD8;
+    border-radius: 4px;
+    padding: 6px;
+    color: #9AABD8;
+    font-family: clock;
+    width: 30px;
+    height: 30px;
+    
+}
+
+h3{
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    
+}
+.display-score{
+    height: 80px;
+    width: 110px;
+    background: #080001;
+    font-family: clock;
+    font-weight: bold;
+    color: red;
+    margin: 15px 0px;
+    font-size: 70px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    
+}
+
+
